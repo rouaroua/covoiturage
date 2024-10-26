@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    margin-top:20px;
+    justify-content: center; /* Espace entre les éléments */
+    align-items: center; /* Centre les éléments verticalement */
+    height: 70%;
+    width: 94%; /* Ajustez selon vos besoins */
+    max-width: auto;
+    
+    background-color: #d9e2ff;
+}
+.action-containers {
+    display: flex;
+    padding:0px 50px;
+    
+    flex-direction: column; /* Empile les conteneurs d'action verticalement */
+    align-items: center; /* Centre horizontalement les conteneurs d'action */
+    flex: 5; /* Permet de prendre l'espace restant */
+}
+
+
+.icon-container {
+    flex: 0.5; /* Ajustez l'espace de l'icône pour qu'elle prenne moins d'espace */
+    display: flex;
+    justify-content: center; /* Centre l'icône horizontalement */
+    margin-right: 20px; /* Ajoutez une marge à droite pour séparer de l'action-container */
+}
+
+
+.action-container {
+    display: flex; /* Assurez-vous d'utiliser flex ici */
+    flex-direction: column; /* Aligne les éléments verticalement */
+    justify-content: center; /* Centre les éléments verticalement */
+    align-items: center; /* Centre horizontalement */
+    padding:  0px;
+    margin: 30px;
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15%;
+}
+.action-button {
+    padding: 18px 20px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:  #d9e2ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Transition ajoutée pour le hover */
+}
+
+.action-button:hover {
+    background-color: #a8d4c7;
+    transform: scale(1.05); /* Effet d'agrandissement */
+}
+.description {
+    font-family: 'Roboto', sans-serif; /* Police */
+    font-size: 18px; /* Taille de police */
+    color: #333; /* Couleur du texte */
+    margin-top: 5px; /* Espacement */
+    font-weight: bold;
+}
+
+.icon {
+    width: 600px; /* Ajustez la taille de l'icône */
+    height: 430px;
+    margin: 0px 5px; /* Espacement autour de l'icône */
+    border-radius: 50%;
+    margin-left: 120px; /* Ajustez cette valeur pour décaler l'icône vers la gauche */
+}
+
+
+.header-divider {
+    height: 3px; /* Épaisseur */
+    background-color: #3f51b5; /* Couleur personnalisée */
+    margin-bottom: 10px; /* Espacement sous la barre */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Ombre subtile */
+}

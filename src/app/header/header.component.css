@@ -2,14 +2,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#86b2f3; /* Background color of the header */
-    padding: 10px 20px;
-    color: white;
+    background-color:#d9e2ff; /* Background color of the header */
+    padding: 8px 30px;
+    color: black;
 }
 
 .logo h2 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px; /* Adjust this value for the desired title size */
+    font-size: 35px; /* Adjust this value for the desired title size */
    
     margin: 0; /* Remove default margin for better alignment */
 }
@@ -32,12 +32,12 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
-    font-size: 25px;
-    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    text-decoration:none;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Effect on hover */
+    text-decoration: underline; 
 }

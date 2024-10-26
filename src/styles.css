@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color:  #d9e2ff; /* Choisissez la couleur désirée */
+    margin: 0; /* Supprime les marges par défaut */
+    font-family: 'Poppins', sans-serif; /* Si vous avez inclus la police Poppins */
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

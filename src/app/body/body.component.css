@@ -1,6 +1,6 @@
 :host {
     display: block;
-    height: 100vh;
+    height: 86vh;
     background-image: url('/assets/back3.jpg');
     background-size: cover;
     background-position: center;
@@ -35,9 +35,11 @@
   .get-started {
     margin-top: 20px; 
     padding: 10px 20px; 
-    font-size: 16px; 
-    background-color: #007BFF;
-    color: white; 
+    font-size: 20px; 
+    background-color:#d9e2ff;
+    color: black;
+    border:1ch;
+    font-weight: bold; 
     border: none; 
     border-radius: 5px;
     cursor: pointer; 
@@ -46,5 +48,7 @@
   
   .get-started:hover {
     background-color: #0056b3; 
+    font-size: 20px;
+    cursor: pointer;
   }
   
