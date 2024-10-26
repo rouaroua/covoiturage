@@ -1,0 +1,50 @@
+:host {
+    display: block;
+    height: 100vh;
+    background-image: url('/assets/back3.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    margin-top: -200px; 
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 25px; 
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    text-align: center; 
+  }
+  
+ 
+.slogan {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+  
+  .get-started {
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: #007BFF;
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  .get-started:hover {
+    background-color: #0056b3; 
+  }
+  
