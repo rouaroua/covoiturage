@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="signup.component.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="signup-container">
+            <div class="form-section">
+                <h2>Inscription</h2>
+                <form>
+                    <div class="input-group">
+                        <label for="name">
+                            <i class="fa fa-user"></i>
+                            <input type="text" id="name" placeholder="Votre nom" required>
+                        </label>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">
+                            <i class="fa fa-envelope"></i>
+                            <input type="email" id="email" placeholder="Votre email" required>
+                        </label>
+                    </div>
+                    <div class="input-group">
+                        <label for="phone">
+                            <i class="fa fa-phone"></i>
+                            <input type="tel" id="phone" placeholder="Votre numéro de téléphone" required>
+                        </label>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">
+                            <i class="fa fa-lock"></i>
+                            <input type="password" id="password" placeholder="Mot de passe" required>
+                        </label>
+                    </div>
+                    <div class="input-group">
+                        <label for="confirm-password">
+                            <i class="fa fa-lock"></i>
+                            <input type="password" id="confirm-password" placeholder="Répétez votre mot de passe" required>
+                        </label>
+                    </div>
+            
+                    <button type="submit" class="register-btn">S'inscrire</button>
+                </form>
+                <p class="member">
+                    <a href="login">Je suis déjà membre</a>
+                </p>
+            </div>
+            <div class="image-section">
+                <img src="assets/signup.png" >
+            </div>
+        </div>
+    </div>
+</body>
+</html>

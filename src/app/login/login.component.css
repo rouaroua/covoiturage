@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.signup-container {
+    display: flex;
+    width: 100%;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+    padding: 20px;
+}
+
+.image-section img {
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+.form-section {
+    flex: 1;
+    padding: 40px;
+}
+
+.form-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #a8d4c7;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: flex;
+    align-items: center;
+    background: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-group input {
+    border: none;
+    background: transparent;
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-group i {
+    margin-right: 10px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me label {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.login-btn {
+    background-color: #d9e2ff;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #3d6ddf;
+}
+
+.create-account {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.create-account:hover{
+    color: #000000;
+    font-weight: bold;
+}
+
+.create-account a {
+    color: #4e86f3;
+    
+    text-decoration: none;
+}

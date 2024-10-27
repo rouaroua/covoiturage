@@ -6,17 +6,24 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
+import { LoginComponent } from './login/login.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SignupComponent } from './signup/signup.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BodyComponent,
-    WelcomePageComponent
+    WelcomePageComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatDividerModule
+    MatDividerModule,
+    FontAwesomeModule
   ], 
  
   bootstrap: [AppComponent]
