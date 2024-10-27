@@ -6,9 +6,9 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
-  { path: '', component: BodyComponent },  // Route par défaut pour le BodyComponent
-  { path: 'welcome', component: WelcomePageComponent },// Route pour la page de bienvenue
-  { path: 'login', component: LoginComponent },  
+  { path: '', component: BodyComponent },  
+  {path:'login',component:LoginComponent},
+  { path: 'welcome', component: WelcomePageComponent },  
   { path: 'signup', component: SignupComponent }, 
 ];
 
