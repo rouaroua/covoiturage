@@ -9,6 +9,8 @@ import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { LoginComponent } from './login/login.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SignupComponent } from './signup/signup.component';
+import { UploadComponent } from './upload/upload.component';
+import { FindComponent } from './find/find.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { SignupComponent } from './signup/signup.component';
     BodyComponent,
     WelcomePageComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    UploadComponent,
+    FindComponent
   ],
   imports: [
     BrowserModule,

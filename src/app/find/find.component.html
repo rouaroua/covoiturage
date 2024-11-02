@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Ride</title>
+    <link rel="stylesheet" href="find.component.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <div class="container mt-5">
+        <h4>Trouver un Covoiturage<span class="logo-container"><img src="assets/logo.png" alt="Logo" class="logo"></span></h4>
+        <form>
+            <div class="mb-3">
+                <label for="leaving-place" class="form-label">Départ</label>
+                <div>
+                    <input type="text" class="form-control" id="leaving-place" placeholder="Entrez le lieu de départ">
+                    <a href="#" target="_blank" class="input-group-text map-icon" title="Ouvrir Google Maps">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </a>
+                </div>
+
+            </div>
+            <div class="mb-3">
+                <label for="going-place" class="form-label">Arrivée</label>
+                <div>
+                    <input type="text" class="form-control" id="going-place" placeholder="Entrez le lieu d'arrivée">
+                    <a href="#" target="_blank" class="input-group-text map-icon" title="Ouvrir Google Maps">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </a>
+                </div>
+
+            </div>
+            <div class="mb-3 row">
+                <div class="col">
+                    <label for="date" class="form-label">Date</label>
+                    <div class="input-group">
+                        <input type="date" class="form-control" id="date">
+                        <span class="input-group-text calendar-icon" title="Choisir une date">
+                            <i class="fas fa-calendar-alt"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="hours" class="form-label">Temps de départ</label>
+                    <div>                    
+                        <select class="form-select" id="time">
+                            <option value="" disabled selected hidden>Choisissez le temps</option>
+                            <option value="M">Matin (6AM-12PM)</option>
+                            <option value="A">Après-midi (13PM-18PM)</option>
+                            <option value="N">Nuit (19PM-12AM)</option>
+                        </select>
+                </div>
+
+                </div>
+                
+            </div>
+            <div class="mb-3">
+                <label for="seats" class="form-label">Nombre de places</label>
+                <div>
+                    <input type="number" class="form-control" id="seats" placeholder="Entrez le nombre de places">
+                </div>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Chercher</button>
+        </form>
+    </div>
+</body>
+</html>
