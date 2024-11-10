@@ -3,45 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Login</title>
     <link rel="stylesheet" href="login.component.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <div class="signup-container">
-            <div class="image-section">
-                <img src="assets/login.png" >
-            </div>
+        <div class="login-container">
             <div class="form-section">
                 <h2>Connexion</h2>
-                <form>
-                    <div class="input-group">
-                      <label for="name">
-                        <i class="fa fa-envelope"></i>
-                        <input type="email" id="name" placeholder="Votre email"  />
-                      </label>
+                <form [formGroup]="loginForm" (ngSubmit)="submitForm()">
+                    <div class="form-group">
+                        <label for="email">
+                            <i class="fa fa-envelope"></i>
+                            <input type="email" id="email" placeholder="Votre email" formControlName="email" />
+                        </label>
                     </div>
-                    <div class="input-group">
-                      <label for="password">
-                        <i class="fa fa-lock"></i>
-                        <input type="password" id="password" placeholder="Mot de passe" />
-                      </label>
+                    <div class="form-group">
+                        <label for="password">
+                            <i class="fa fa-lock"></i>
+                            <input type="password" id="password" placeholder="Mot de passe" formControlName="password"/>
+                        </label>
                     </div>
-                    <div class="remember-me">
-                      <input type="checkbox" id="remember" />
-                      <label for="remember">Se souvenir de moi</label>
-                    </div>
-                    <button type="submit" class="login-btn" router-link="['/welcome']">Se connecter</button>
-                  </form>
-                <p class="create-account">
-                    <a href="signup">Créer un compte</a>
+                    <button type="submit" class="login-btn" [disabled]="loginForm.invalid">Se connecter</button>
+                </form>
+                <p class="create-acount">
+                    <a href="signup">creer un compte</a>
+
                 </p>
-                
             </div>
         </div>
     </div>
 </body>
 </html>
-

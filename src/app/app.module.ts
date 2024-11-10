@@ -9,6 +9,10 @@ import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { LoginComponent } from './login/login.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SignupComponent } from './signup/signup.component';
+import { UploadComponent } from './upload/upload.component';
+import { FindComponent } from './find/find.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule, provideHttpClient, withFetch } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,14 +21,22 @@ import { SignupComponent } from './signup/signup.component';
     BodyComponent,
     WelcomePageComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    UploadComponent,
+    FindComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatDividerModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule,
+    ReactiveFormsModule
+   
   ], 
+  providers: [
+    provideHttpClient(withFetch()) // Ajoutez la configuration de HttpClient ici
+  ],
  
   bootstrap: [AppComponent]
 })

@@ -12,43 +12,40 @@
         <div class="signup-container">
             <div class="form-section">
                 <h2>Inscription</h2>
-                <form>
+                <form [formGroup]="registerForm" (ngSubmit)="submitForm()">
                     <div class="input-group">
-                        <label for="name">
-                            <i class="fa fa-user"></i>
-                            <input type="text" id="name" placeholder="Votre nom" required>
-                        </label>
+                      <label for="name">
+                        <i class="fa fa-user"></i>
+                        <input type="text" id="name" placeholder="Votre nom" formControlName="name" required>
+                      </label>
                     </div>
                     <div class="input-group">
-                        <label for="email">
-                            <i class="fa fa-envelope"></i>
-                            <input type="email" id="email" placeholder="Votre email" required>
-                        </label>
+                      <label for="email">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" id="email" placeholder="Votre email" formControlName="email" required>
+                      </label>
                     </div>
                     <div class="input-group">
-                        <label for="phone">
-                            <i class="fa fa-phone"></i>
-                            <input type="tel" id="phone" placeholder="Votre numéro de téléphone" required>
-                        </label>
+                      <label for="phone">
+                        <i class="fa fa-phone"></i>
+                        <input type="tel" id="phone" placeholder="Votre numéro de téléphone" formControlName="phone" required>
+                      </label>
                     </div>
                     <div class="input-group">
-                        <label for="password">
-                            <i class="fa fa-lock"></i>
-                            <input type="password" id="password" placeholder="Mot de passe" required>
-                        </label>
+                      <label for="password">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" id="password" placeholder="Mot de passe" formControlName="password" required>
+                      </label>
                     </div>
-                    <div class="input-group">
-                        <label for="confirm-password">
-                            <i class="fa fa-lock"></i>
-                            <input type="password" id="confirm-password" placeholder="Répétez votre mot de passe" required>
-                        </label>
+                    <div class="input-group"> 
+                      <label for="confirm-password">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" id="confirm-password" formControlName="confirmPassword" placeholder="Répétez votre mot de passe" required>
+                      </label>
                     </div>
-            
-                    <button type="submit" class="register-btn">S'inscrire</button>
-                </form>
-                <p class="member">
-                    <a href="login">Je suis déjà membre</a>
-                </p>
+                    <button type="submit" class="register-btn" [routerLink]="['/login']" [disabled]="registerForm.invalid">S'inscrire</button>
+                  </form>
+                  
             </div>
             <div class="image-section">
                 <img src="assets/signup.png" >

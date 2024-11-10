@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: #a8d4c7;
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    margin-left: auto; /* Pushes the logo to the far right */
+}
+
+.logo {
+    height: 120px;  
+}
+
+
+.form-label {
+    font-weight: 500;
+    color: #3d6ddf; /* Dark gray for labels */
+}
+
+.form-control, .form-select {
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #a8d4c7;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group-text {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-left: none;
+    cursor: pointer;
+    color: #3d6ddf;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+}
+
+.input-group-text:hover {
+    color: #a8d4c7; /* Darker shade for hover */
+}
+
+.calendar-icon i, .map-icon i {
+    font-size: 15px;
+}
+
+.btn-primary {
+    margin-top: 8px;
+    background-color: #3d6ddf;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #a8d4c7; /* Darker blue on hover */
+}
+
+select {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
