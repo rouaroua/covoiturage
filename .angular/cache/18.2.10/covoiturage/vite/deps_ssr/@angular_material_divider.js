@@ -2,7 +2,7 @@ import { createRequire } from 'module';const require = createRequire(import.meta
 import {
   DOCUMENT,
   isPlatformBrowser
-} from "./chunk-GNZU6RBP.js";
+} from "./chunk-WPY4FBL4.js";
 import {
   ANIMATION_MODULE_TYPE,
   APP_ID,

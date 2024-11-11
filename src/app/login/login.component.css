@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #d9e2ff;
+    background-color: #f9f9f9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +49,7 @@ body {
     color: #a8d4c7;
 }
 
-.form-group {
+.input-group {
     margin-bottom: 15px;
 }
 

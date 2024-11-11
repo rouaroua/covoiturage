@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -35,4 +34,55 @@ h2 {
     margin-bottom: 15px;
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
+}
+
+/* Ride Card Styles */
+.ride-card {
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ride-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ride-card h4 {
+    margin: 0 0 10px 0;
+    color: #222;
+}
+
+.ride-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Past Rides */
+.ride-card.past {
+    background: #eef0f5;
+    border-color: #ccc;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .history-container {
+        width: 95%;
+    }
+
+    .ride-card {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .section h3 {
+        font-size: 18px;
+    }
 }

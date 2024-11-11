@@ -1,7 +1,7 @@
 import {
   DOCUMENT,
   isPlatformBrowser
-} from "./chunk-JX5WMCFD.js";
+} from "./chunk-LFN6LZ6J.js";
 import {
   ANIMATION_MODULE_TYPE,
   APP_ID,

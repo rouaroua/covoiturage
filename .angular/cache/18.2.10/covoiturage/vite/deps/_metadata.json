@@ -1,61 +1,67 @@
 {
-  "hash": "20e054dc",
-  "configHash": "ce168be1",
+  "hash": "02e94fdc",
+  "configHash": "cbcd924b",
   "lockfileHash": "58a021d6",
-  "browserHash": "200f649a",
+  "browserHash": "4f52f36f",
   "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "5b8877fa",
+      "needsInterop": false
+    },
     "@angular/common/http": {
       "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
-      "fileHash": "cdd669e6",
+      "fileHash": "42abe76c",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "1b03d7d8",
+      "fileHash": "b877fc6a",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "6a0c3a99",
+      "fileHash": "8cd63592",
       "needsInterop": false
     },
     "@angular/material/divider": {
       "src": "../../../../../../node_modules/@angular/material/fesm2022/divider.mjs",
       "file": "@angular_material_divider.js",
-      "fileHash": "6de390fc",
+      "fileHash": "0dde2ba9",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "582a9b68",
+      "fileHash": "306bff6c",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "fff0e755",
+      "fileHash": "67b6d068",
       "needsInterop": false
     },
     "@fortawesome/angular-fontawesome": {
       "src": "../../../../../../node_modules/@fortawesome/angular-fontawesome/fesm2022/angular-fontawesome.mjs",
       "file": "@fortawesome_angular-fontawesome.js",
-      "fileHash": "dbf56613",
+      "fileHash": "d462ab5a",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-RPSKFL6P": {
-      "file": "chunk-RPSKFL6P.js"
+    "chunk-UET6G4SV": {
+      "file": "chunk-UET6G4SV.js"
     },
-    "chunk-VIIDM4QJ": {
-      "file": "chunk-VIIDM4QJ.js"
+    "chunk-4DL22CAE": {
+      "file": "chunk-4DL22CAE.js"
     },
-    "chunk-JX5WMCFD": {
-      "file": "chunk-JX5WMCFD.js"
+    "chunk-LFN6LZ6J": {
+      "file": "chunk-LFN6LZ6J.js"
     },
     "chunk-FA2CZQ6H": {
       "file": "chunk-FA2CZQ6H.js"
