@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa; 
+    background-color: #d9e2ff; 
     margin: 0;
     padding: 0;
 }
@@ -37,14 +37,14 @@ h4 {
     color: #3d6ddf; /* Dark gray for labels */
 }
 
-.form-control, .form-select {
+.form-control{
     border-radius: 5px;
     border: 1px solid #000000;
     padding: 10px;
     font-size: 14px;
 }
 
-.form-control:focus, .form-select:focus {
+.form-control:focus {
     border-color: #a8d4c7;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
 }
@@ -87,10 +87,5 @@ h4 {
     background-color: #a8d4c7; /* Darker blue on hover */
 }
 
-select {
-    width: 100%;
-    border-radius: 5px;
-    padding: 10px;
-}
 
 

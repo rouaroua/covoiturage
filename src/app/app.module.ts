@@ -13,6 +13,7 @@ import { UploadComponent } from './upload/upload.component';
 import { FindComponent } from './find/find.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, provideHttpClient, withFetch } from '@angular/common/http';
+import { HistoryComponent } from './history/history.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HttpClientModule, provideHttpClient, withFetch } from '@angular/common/
     LoginComponent,
     SignupComponent,
     UploadComponent,
-    FindComponent
+    FindComponent,
+    HistoryComponent
   ],
   imports: [
     BrowserModule,

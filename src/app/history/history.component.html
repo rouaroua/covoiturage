@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Ride</title>
+    <link rel="stylesheet" href="history.component.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<app-header></app-header>
+<body>
+<div class="history-container">
+     <h2>Historique de Covoiturages</h2>
+
+    <div class="section">
+        <h3>Trajets Disponibles</h3>
+        <div *ngFor="let ride of availableRides" class="ride-card">
+            <h4>{{ ride.title }}</h4>
+            <p><strong>Départ:</strong> {{ ride.departureLocation }}</p>
+            <p><strong>Arrivée:</strong> {{ ride.arrivalLocation }}</p>
+            <p><strong>Date:</strong> {{ ride.date | date:'dd/MM/yyyy' }}</p>
+            <p><strong>Heure:</strong> {{ ride.time }}</p>
+            <p><strong>Places disponibles:</strong> {{ ride.seats }}</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Historique des Trajets</h3>
+        <div *ngFor="let ride of pastRides" class="ride-card past">
+            <h4>{{ ride.title }}</h4>
+            <p><strong>Départ:</strong> {{ ride.departureLocation }}</p>
+            <p><strong>Arrivée:</strong> {{ ride.arrivalLocation }}</p>
+            <p><strong>Date:</strong> {{ ride.date | date:'dd/MM/yyyy' }}</p>
+            <p><strong>Heure:</strong> {{ ride.time }}</p>
+        </div>
+    </div>
+</div>
+</body>

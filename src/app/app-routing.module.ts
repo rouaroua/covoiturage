@@ -6,6 +6,9 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { UploadComponent } from './upload/upload.component';
 import { FindComponent } from './find/find.component';
+import { HistoryComponent } from './history/history.component';
+
+
 
 
 const routes: Routes = [
@@ -15,6 +18,7 @@ const routes: Routes = [
   { path: 'signup', component: SignupComponent },  
   { path: 'upload', component: UploadComponent },  
   { path: 'find', component: FindComponent },  
+  { path: 'history', component: HistoryComponent }, 
 
 ];
 
